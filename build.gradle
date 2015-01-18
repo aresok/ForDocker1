@@ -17,6 +17,7 @@ apply plugin: 'spring-boot'
 jar {
     baseName = 'ForDocker1'
     version = '0.0.1'
+    archiveName = baseName + "." + extension
 }
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
